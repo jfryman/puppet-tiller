@@ -12,7 +12,7 @@ define tiller::config (
   $_target_file = "/etc/tiller/environments/${environment}.yaml"
 
   $_config = {
-    $template => {
+    "$template" => {
       target => $target,
       user   => $user,
       group  => $group,
